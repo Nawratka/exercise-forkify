@@ -125,5 +125,6 @@ const init = function () {
   paginationView.addHandlerClick(controlPagination);
   addRecipeView.addHandlerUpload(controlAddRecipe);
   bookmarksView.addHandlerRander(controlBookmarks);
+  console.log('test');
 };
 init();
